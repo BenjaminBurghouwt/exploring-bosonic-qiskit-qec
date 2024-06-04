@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "exploring-bosonic-qiskit-qec"
+version = "0.1.0"
+description = "Exploring Bosonic error correction with Bosonic Qiskit"
+authors = ["Benjamin Burghouwt"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+qiskit = "1.1.0"
+qiskit_aer = "0.13.3"
+qiskit-ibm-runtime = "0.23.0"
+pylatexenc = "2.10"
+qutip = "^5.0.2"
+matplotlib = "^3.9.0"
+scipy = "^1.13.1"
+jupyter = "^1.0.0"
+
+[tool.setuptools]
+packages = ["c2qa"]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
