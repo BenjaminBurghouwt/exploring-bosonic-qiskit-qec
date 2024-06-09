@@ -36,6 +36,9 @@ print(sys.path)
 
 ---
 
-### Dependencies
+## Available Gates
+Current gates available for simulation are documented at [CVCircuit Documentation](https://c2qa.github.io/bosonic-qiskit/c2qa.circuit.CVCircuit.html).
+
+## Dependencies
 - Bosonic Qiskit 11.2
 - Qiskit 1.1.0
